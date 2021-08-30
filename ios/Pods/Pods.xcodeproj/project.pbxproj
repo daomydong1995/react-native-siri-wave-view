@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		329F49C8041022A8B6E78EBBAEA7A593 /* SCSiriWaveformView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAEF77F03049A444953A0B2B8C01B64 /* SCSiriWaveformView-dummy.m */; };
+		3B6DE149796F7B812FC46BE4C5B9C707 /* PXSiriWave.h in Headers */ = {isa = PBXBuildFile; fileRef = 439BC4F10044B9076783165D6F67D353 /* PXSiriWave.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3EEC64D2C368A454E3A96FC14383942F /* Pods-RNSiriWaveView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 155FE490C255F98BF084A026B384F7C2 /* Pods-RNSiriWaveView-dummy.m */; };
+		57DF8C8646982E9DE61D10D473C84C46 /* SCSiriWaveformView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7CE6271E04FB06D9F896C7BD573870 /* SCSiriWaveformView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B9921E521F20C7FF9C24DDCFBC0C2FB /* SCSiriWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47854F48FF4C68331F63667E9D9FF676 /* SCSiriWaveformView.m */; };
+		872D99524F68B3474F7F29B0BDA917C4 /* SiriWaveCurve.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C40E42DBECA446B90C12C22899EEA2 /* SiriWaveCurve.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8883304D72BD09160FA4B915F4B493C4 /* SiriWaveCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 754D222307B342EA2EF952DC0785F99E /* SiriWaveCurve.m */; };
+		9379D4D9F0EDDE21BEFE06B645EFD522 /* PXSiriWave.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6523111705EA32D04061965DF88046 /* PXSiriWave.m */; };
+		D3C0A08224CAA868D2BDA9E58AC40720 /* PXSiriWave-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22590EEFC4563D5CD2446A3FA8B08A /* PXSiriWave-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59AC3C110DBE1108A16AA6E32C1BE7DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D76BE29FE832155DDE00968858DCAB38;
+			remoteInfo = SCSiriWaveformView;
+		};
+		9E82FDD1E80E09D8F55553F354D91BA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B73C614FE731FFEB6C4D08AE1AD80C8;
+			remoteInfo = PXSiriWave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F081B466E44B3D847A8966A55F6B5D /* Pods-RNSiriWaveView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNSiriWaveView-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E7CE6271E04FB06D9F896C7BD573870 /* SCSiriWaveformView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCSiriWaveformView.h; path = SCSiriWaveformView/SCSiriWaveformView.h; sourceTree = "<group>"; };
+		1225CD4688A0F4DE26F1D9AA5963278D /* libPXSiriWave.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPXSiriWave.a; path = libPXSiriWave.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		155FE490C255F98BF084A026B384F7C2 /* Pods-RNSiriWaveView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNSiriWaveView-dummy.m"; sourceTree = "<group>"; };
+		24C699252FAB21E76E3858FE86E3232C /* PXSiriWave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXSiriWave.debug.xcconfig; sourceTree = "<group>"; };
+		2D22590EEFC4563D5CD2446A3FA8B08A /* PXSiriWave-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXSiriWave-dummy.m"; sourceTree = "<group>"; };
+		39D423923F96FBDA6D6525725E1AFA4B /* PXSiriWave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXSiriWave.release.xcconfig; sourceTree = "<group>"; };
+		439BC4F10044B9076783165D6F67D353 /* PXSiriWave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSiriWave.h; path = PXSiriWave/PXSiriWave.h; sourceTree = "<group>"; };
+		46AAF9A736D312286166BA12E9700608 /* libPods-RNSiriWaveView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RNSiriWaveView.a"; path = "libPods-RNSiriWaveView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47854F48FF4C68331F63667E9D9FF676 /* SCSiriWaveformView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCSiriWaveformView.m; path = SCSiriWaveformView/SCSiriWaveformView.m; sourceTree = "<group>"; };
+		4EAEF77F03049A444953A0B2B8C01B64 /* SCSiriWaveformView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCSiriWaveformView-dummy.m"; sourceTree = "<group>"; };
+		4F00DB9F3396D4B6D79C37EBCB1B0FBF /* Pods-RNSiriWaveView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNSiriWaveView.debug.xcconfig"; sourceTree = "<group>"; };
+		65D14D3FBEF8241AF58642AEDE24ECBD /* PXSiriWave-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXSiriWave-prefix.pch"; sourceTree = "<group>"; };
+		754D222307B342EA2EF952DC0785F99E /* SiriWaveCurve.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SiriWaveCurve.m; path = PXSiriWave/SiriWaveCurve.m; sourceTree = "<group>"; };
+		7B8AA907DCDD828A14141BD02597103D /* SCSiriWaveformView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCSiriWaveformView-prefix.pch"; sourceTree = "<group>"; };
+		830DC758CE89836B130B50F4DA7A0267 /* libSCSiriWaveformView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSCSiriWaveformView.a; path = libSCSiriWaveformView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A808057435167C504351884583CD1066 /* SCSiriWaveformView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCSiriWaveformView.release.xcconfig; sourceTree = "<group>"; };
+		A9C40E42DBECA446B90C12C22899EEA2 /* SiriWaveCurve.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SiriWaveCurve.h; path = PXSiriWave/SiriWaveCurve.h; sourceTree = "<group>"; };
+		BB48E6823C3CBAD7CA7EEC667E97669A /* Pods-RNSiriWaveView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNSiriWaveView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB6523111705EA32D04061965DF88046 /* PXSiriWave.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXSiriWave.m; path = PXSiriWave/PXSiriWave.m; sourceTree = "<group>"; };
+		BFD5784AA3F5F96924046F813CD285F1 /* Pods-RNSiriWaveView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNSiriWaveView.release.xcconfig"; sourceTree = "<group>"; };
+		CD3CC5567F0A07D0CED86A3A773BC122 /* SCSiriWaveformView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCSiriWaveformView.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BB3BC489928D26662B0CA95894C5E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EF437C3E363D23CC8011E66F6C29E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D381D29E348153A94167441663F30AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22F0C81A247C0B32FB5EBA423610FB44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46AAF9A736D312286166BA12E9700608 /* libPods-RNSiriWaveView.a */,
+				1225CD4688A0F4DE26F1D9AA5963278D /* libPXSiriWave.a */,
+				830DC758CE89836B130B50F4DA7A0267 /* libSCSiriWaveformView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45D8977A596E49081B10F42A8DF52619 /* Pods-RNSiriWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				BB48E6823C3CBAD7CA7EEC667E97669A /* Pods-RNSiriWaveView-acknowledgements.markdown */,
+				02F081B466E44B3D847A8966A55F6B5D /* Pods-RNSiriWaveView-acknowledgements.plist */,
+				155FE490C255F98BF084A026B384F7C2 /* Pods-RNSiriWaveView-dummy.m */,
+				4F00DB9F3396D4B6D79C37EBCB1B0FBF /* Pods-RNSiriWaveView.debug.xcconfig */,
+				BFD5784AA3F5F96924046F813CD285F1 /* Pods-RNSiriWaveView.release.xcconfig */,
+			);
+			name = "Pods-RNSiriWaveView";
+			path = "Target Support Files/Pods-RNSiriWaveView";
+			sourceTree = "<group>";
+		};
+		86731947818B061F1D64FE9C1F8E0092 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EAEF77F03049A444953A0B2B8C01B64 /* SCSiriWaveformView-dummy.m */,
+				7B8AA907DCDD828A14141BD02597103D /* SCSiriWaveformView-prefix.pch */,
+				CD3CC5567F0A07D0CED86A3A773BC122 /* SCSiriWaveformView.debug.xcconfig */,
+				A808057435167C504351884583CD1066 /* SCSiriWaveformView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCSiriWaveformView";
+			sourceTree = "<group>";
+		};
+		938F1E05933CB336FC4A0B9DDB163828 /* SCSiriWaveformView */ = {
+			isa = PBXGroup;
+			children = (
+				0E7CE6271E04FB06D9F896C7BD573870 /* SCSiriWaveformView.h */,
+				47854F48FF4C68331F63667E9D9FF676 /* SCSiriWaveformView.m */,
+				86731947818B061F1D64FE9C1F8E0092 /* Support Files */,
+			);
+			name = SCSiriWaveformView;
+			path = SCSiriWaveformView;
+			sourceTree = "<group>";
+		};
+		99442577CD48A9E37D0C171D3640FFB0 /* PXSiriWave */ = {
+			isa = PBXGroup;
+			children = (
+				439BC4F10044B9076783165D6F67D353 /* PXSiriWave.h */,
+				BB6523111705EA32D04061965DF88046 /* PXSiriWave.m */,
+				A9C40E42DBECA446B90C12C22899EEA2 /* SiriWaveCurve.h */,
+				754D222307B342EA2EF952DC0785F99E /* SiriWaveCurve.m */,
+				BA9E9840AED236592E362224468BE392 /* Support Files */,
+			);
+			name = PXSiriWave;
+			path = PXSiriWave;
+			sourceTree = "<group>";
+		};
+		A8C90B501176870200379829EE3A933A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45D8977A596E49081B10F42A8DF52619 /* Pods-RNSiriWaveView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA9E9840AED236592E362224468BE392 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D22590EEFC4563D5CD2446A3FA8B08A /* PXSiriWave-dummy.m */,
+				65D14D3FBEF8241AF58642AEDE24ECBD /* PXSiriWave-prefix.pch */,
+				24C699252FAB21E76E3858FE86E3232C /* PXSiriWave.debug.xcconfig */,
+				39D423923F96FBDA6D6525725E1AFA4B /* PXSiriWave.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PXSiriWave";
+			sourceTree = "<group>";
+		};
+		C7BA17A7ED225BC7DEAEEFF21D7EE0D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99442577CD48A9E37D0C171D3640FFB0 /* PXSiriWave */,
+				938F1E05933CB336FC4A0B9DDB163828 /* SCSiriWaveformView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				C7BA17A7ED225BC7DEAEEFF21D7EE0D7 /* Pods */,
+				22F0C81A247C0B32FB5EBA423610FB44 /* Products */,
+				A8C90B501176870200379829EE3A933A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B2FCB487FC29896576862F824010B72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6DE149796F7B812FC46BE4C5B9C707 /* PXSiriWave.h in Headers */,
+				872D99524F68B3474F7F29B0BDA917C4 /* SiriWaveCurve.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B6CB2CB57E7135CAE6CDD7F7BBD54F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DF8C8646982E9DE61D10D473C84C46 /* SCSiriWaveformView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E4933952E398CDD6C007665AE3C5A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7B73C614FE731FFEB6C4D08AE1AD80C8 /* PXSiriWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFCF8A02F5CBD19FE4270E0CB8758B6 /* Build configuration list for PBXNativeTarget "PXSiriWave" */;
+			buildPhases = (
+				0B2FCB487FC29896576862F824010B72 /* Headers */,
+				5C8C80D7C55D1F024BF16E8329E91B0F /* Sources */,
+				9D381D29E348153A94167441663F30AA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PXSiriWave;
+			productName = PXSiriWave;
+			productReference = 1225CD4688A0F4DE26F1D9AA5963278D /* libPXSiriWave.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8C19D6B22DD303748E279AF9C2159F66 /* Pods-RNSiriWaveView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8CCA910674C652A802B356D79F57F40 /* Build configuration list for PBXNativeTarget "Pods-RNSiriWaveView" */;
+			buildPhases = (
+				C8E4933952E398CDD6C007665AE3C5A6 /* Headers */,
+				F794C3404B2D781F8819CEB1E4DD579A /* Sources */,
+				45EF437C3E363D23CC8011E66F6C29E4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC18139957B24527B5CBA6AD5A304C14 /* PBXTargetDependency */,
+				D351799F0375659025F5388D255759B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-RNSiriWaveView";
+			productName = "Pods-RNSiriWaveView";
+			productReference = 46AAF9A736D312286166BA12E9700608 /* libPods-RNSiriWaveView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D76BE29FE832155DDE00968858DCAB38 /* SCSiriWaveformView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3475FDABD8691FC6E82E0142C5FE4D6A /* Build configuration list for PBXNativeTarget "SCSiriWaveformView" */;
+			buildPhases = (
+				99B6CB2CB57E7135CAE6CDD7F7BBD54F /* Headers */,
+				FDA7460F6AFDE897F3694937807EA8E9 /* Sources */,
+				0BB3BC489928D26662B0CA95894C5E89 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCSiriWaveformView;
+			productName = SCSiriWaveformView;
+			productReference = 830DC758CE89836B130B50F4DA7A0267 /* libSCSiriWaveformView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 22F0C81A247C0B32FB5EBA423610FB44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C19D6B22DD303748E279AF9C2159F66 /* Pods-RNSiriWaveView */,
+				7B73C614FE731FFEB6C4D08AE1AD80C8 /* PXSiriWave */,
+				D76BE29FE832155DDE00968858DCAB38 /* SCSiriWaveformView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C8C80D7C55D1F024BF16E8329E91B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C0A08224CAA868D2BDA9E58AC40720 /* PXSiriWave-dummy.m in Sources */,
+				9379D4D9F0EDDE21BEFE06B645EFD522 /* PXSiriWave.m in Sources */,
+				8883304D72BD09160FA4B915F4B493C4 /* SiriWaveCurve.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F794C3404B2D781F8819CEB1E4DD579A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEC64D2C368A454E3A96FC14383942F /* Pods-RNSiriWaveView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA7460F6AFDE897F3694937807EA8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329F49C8041022A8B6E78EBBAEA7A593 /* SCSiriWaveformView-dummy.m in Sources */,
+				5B9921E521F20C7FF9C24DDCFBC0C2FB /* SCSiriWaveformView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC18139957B24527B5CBA6AD5A304C14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXSiriWave;
+			target = 7B73C614FE731FFEB6C4D08AE1AD80C8 /* PXSiriWave */;
+			targetProxy = 9E82FDD1E80E09D8F55553F354D91BA8 /* PBXContainerItemProxy */;
+		};
+		D351799F0375659025F5388D255759B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCSiriWaveformView;
+			target = D76BE29FE832155DDE00968858DCAB38 /* SCSiriWaveformView */;
+			targetProxy = 59AC3C110DBE1108A16AA6E32C1BE7DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		89BFFCC17878E65DE87B0EC4FCDD801C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD5784AA3F5F96924046F813CD285F1 /* Pods-RNSiriWaveView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB2E4648FCDDB0B5A4709EF89EFD787F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F00DB9F3396D4B6D79C37EBCB1B0FBF /* Pods-RNSiriWaveView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3F4C86627F3604AEE66A3749EDCFE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C699252FAB21E76E3858FE86E3232C /* PXSiriWave.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PXSiriWave/PXSiriWave-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PXSiriWave;
+				PRODUCT_NAME = PXSiriWave;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E490CFA7B8B7ACD34EF9013D346083F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D423923F96FBDA6D6525725E1AFA4B /* PXSiriWave.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PXSiriWave/PXSiriWave-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PXSiriWave;
+				PRODUCT_NAME = PXSiriWave;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F1162DA297080C50C34F7AEBDB33B83D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A808057435167C504351884583CD1066 /* SCSiriWaveformView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SCSiriWaveformView/SCSiriWaveformView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SCSiriWaveformView;
+				PRODUCT_NAME = SCSiriWaveformView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F38B953BAFEC96BB48C0FC14F5C2616F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3CC5567F0A07D0CED86A3A773BC122 /* SCSiriWaveformView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SCSiriWaveformView/SCSiriWaveformView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SCSiriWaveformView;
+				PRODUCT_NAME = SCSiriWaveformView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3475FDABD8691FC6E82E0142C5FE4D6A /* Build configuration list for PBXNativeTarget "SCSiriWaveformView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38B953BAFEC96BB48C0FC14F5C2616F /* Debug */,
+				F1162DA297080C50C34F7AEBDB33B83D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8CCA910674C652A802B356D79F57F40 /* Build configuration list for PBXNativeTarget "Pods-RNSiriWaveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2E4648FCDDB0B5A4709EF89EFD787F /* Debug */,
+				89BFFCC17878E65DE87B0EC4FCDD801C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFCF8A02F5CBD19FE4270E0CB8758B6 /* Build configuration list for PBXNativeTarget "PXSiriWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F4C86627F3604AEE66A3749EDCFE8D /* Debug */,
+				E490CFA7B8B7ACD34EF9013D346083F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
