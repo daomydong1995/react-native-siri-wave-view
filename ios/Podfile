@@ -8,6 +8,4 @@ target 'RNSiriWaveView' do
   # Pods for RNSiriWaveView
 
   pod 'SCSiriWaveformView'
-  pod 'PXSiriWave', '0.0.2'
-
 end
