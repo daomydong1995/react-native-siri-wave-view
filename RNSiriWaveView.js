@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 import { Platform, requireNativeComponent, ViewPropTypes } from 'react-native'
-
-class RNSiriWaveView extends Component {
+export default class RNSiriWaveView extends Component {
 	static propTypes = {
 		...ViewPropTypes,
 
@@ -104,5 +103,3 @@ class RNSiriWaveView extends Component {
 const SiriWaveView = requireNativeComponent('RNSiriWaveView', RNSiriWaveView)
 
 const SiriWaveView9 = requireNativeComponent('RNSiriWaveView9', RNSiriWaveView)
-
-export default RNSiriWaveView

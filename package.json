@@ -12,10 +12,13 @@
 		"url": "https://github.com/daomydong1995/react-native-siri-wave-view.git"
 	},
 	"keywords": [
+		"react",
 		"react-native"
 	],
 	"author": "Pranav Raj Singh Chauhan",
 	"license": "Apache License",
-	"peerDependencies": {},
+	"peerDependencies": {
+		"react-native": ">=0.60"
+	},
 	"devDependencies": {}
 }
