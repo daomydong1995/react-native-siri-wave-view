@@ -1,3 +1,3 @@
-import RNSiriWaveView from './RNSiriWaveView'
+import RNSiriWaveView from "./RNSiriWaveView";
 
-export default { RNSiriWaveView }
+export default { RNSiriWaveView };

@@ -1,22 +1,30 @@
-
 {
-  "name": "react-native-siri-wave-view",
-  "version": "0.0.9",
-  "description": "React Native Siri Wave View",
-  "main": "RNSiriWaveView.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node scripts/installer.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/prscX/react-native-siri-wave-view.git"
-  },
-  "keywords": ["react-native"],
-  "author": "Pranav Raj Singh Chauhan",
-  "license": "Apache License",
-  "peerDependencies": {},
-  "devDependencies": {
-    "prettier-pack": "0.0.7"
-  }
+	"name": "react-native-siri-wave-view",
+	"version": "0.0.9",
+	"description": "React Native Siri Wave View",
+	"main": "RNSiriWaveView.js",
+	"types": "RNSiriWaveView.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"postinstall": "node scripts/installer.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/prscX/react-native-siri-wave-view.git"
+	},
+	"keywords": [
+		"react-native"
+	],
+	"author": "Pranav Raj Singh Chauhan",
+	"license": "Apache License",
+	"dependencies": {
+		"prop-types": "^15.5.0"
+	},
+	"peerDependencies": {
+		"react": "17.0.2",
+		"react-native": "0.64.2"
+	},
+	"devDependencies": {
+		"prettier": "^2.0.4"
+	}
 }
