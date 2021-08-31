@@ -30,7 +30,7 @@ class RNSiriWaveView extends Component {
 		width: 200,
 		height: 100,
 		numberOfWaves: 5,
-		backgroundColor: "#FFFFFF",
+		backgroundColor: "rgba(0, 0, 0, 0)",
 		waveColor: "#000000",
 		primaryWaveLineWidth: Platform.OS === "ios" ? 3 : 50,
 		secondaryWaveLineWidth: 1,
